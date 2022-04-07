@@ -1,0 +1,8 @@
+.characters {
+  width: 100%;
+
+  .characters-list {
+    @include XYCenter;
+    flex-wrap: wrap;
+  }
+}

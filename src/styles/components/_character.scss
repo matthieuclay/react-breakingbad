@@ -1,0 +1,16 @@
+.character {
+  max-width: 300px;
+  @include XYCenter;
+  flex-direction: column;
+
+  margin: 0 10px;
+  padding: 0 10px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    max-width: fit-content;
+    max-height: fit-content;
+    border: 2px solid var(--tertiary);
+  }
+}

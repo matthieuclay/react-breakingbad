@@ -1,0 +1,38 @@
+.navigation {
+  @include XYCenter;
+
+  .nav {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    color: var(--secondary);
+
+    margin: 0 2rem;
+
+    transition: all 0.1s ease-in-out;
+
+    &:hover {
+      color: var(--tertiary);
+    }
+  }
+
+  .nav-active {
+    // position: relative;
+    color: var(--tertiary);
+
+    // &::before {
+    //   content: "";
+    //   position: absolute;
+    //   top: 0px;
+    //   left: -10px;
+    //   width: 10em;
+    //   max-width: 150%;
+    //   height: 120%;
+    //   transform: skew(-20deg);
+    //   background: var(--secondary);
+    //   z-index: -1;
+
+    //   transition: all 0.2s ease-in-out;
+    // }
+  }
+}
